@@ -13,10 +13,10 @@ export default function Prices() {
           </tr>
           <tr>
             <td>Fúrás</td>
-            <td>Faragás</td>
+            <td>5000 Ft</td>
           </tr>
           <tr>
-            <td>5000 Ft</td>
+            <td>Faragás</td>
             <td>2500 Ft</td>
           </tr>
         </tbody>  
