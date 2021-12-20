@@ -8,7 +8,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="#intro" className="logo">
             Villanyszerelés
-            <img src="./img/hazard.png" id="logo-img"></img>
+            <img src="./img/hazard.png" id="logo-img" alt=""></img>
           </a>
           <div className="itemContainer">
             <Person className="icon" />
