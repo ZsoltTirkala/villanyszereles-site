@@ -1,6 +1,4 @@
 import "./intro.scss";
-import { init } from "ityped";
-import { useEffect, useRef } from "react";
 
 export default function Intro() {
 
@@ -13,7 +11,7 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h1>Üdvözlöm a Villanyszerelő Websiteomon!</h1>
+          <h1>Üdvözlöm a Perfectvill oldalán!</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Vivamus faucibus, neque et accumsan commodo, odio nulla imperdiet nunc, vel semper ipsum metus quis lorem. 
             Aliquam a augue euismod, vulputate leo id, vestibulum justo. 
