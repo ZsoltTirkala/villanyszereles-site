@@ -52,6 +52,7 @@
       @include mobile{
         padding-left: 0;
         align-items: center;
+        display:block;
       }
 
       h1 {
@@ -60,6 +61,7 @@
 
         @include mobile{
           font-size: 40px;
+          text-align: center;
         }
       }
       h2 {
@@ -71,6 +73,8 @@
 
         @include mobile{
           font-size: 20px;
+          text-align: center;
+          margin-left: 35px;
         }
 
         span {
