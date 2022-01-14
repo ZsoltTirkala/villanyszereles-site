@@ -11,7 +11,7 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h1>Üdvözlöm a Perfectvill oldalán!</h1>
+          <h1>Üdvözlöm a Perfectamper oldalán!</h1>
           <h3>Elsősorban lakossági megrendelések teljesítésével, kivitelezési, felújítási és karbantartási munkák
             elvégzésével foglalkozom, az egyszerű kapcsoló cserétől az új ház teljes villamos rendszerének
             kialakításáig a jelen kor igényeire szabva. Munkám során kiemelt hangsúlyt fektetek a minőségre és a
