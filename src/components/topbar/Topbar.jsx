@@ -7,8 +7,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Perfectvill
-            <img src="./img/hazard.png" id="logo-img" alt=""></img>
+          <img src="./img/logo.png" id="logo-img" alt=""></img>
+            Perfectamper
           </a>
           <div className="itemContainer">
             <Person className="icon" />
@@ -16,7 +16,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>szookelajos@gmail.com</span>
+            <span>perfectamper@gmail.com</span>
           </div>
         </div>
         <div className="right">
