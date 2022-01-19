@@ -10,18 +10,18 @@
   }
 
   .left {
-    flex: 0.5;
+    flex: 0.25;
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
-      margin-top: 50px;
+      width: 400px;
+      height: 400px;
+      margin-top: 70px;
       background-color: orange;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
-      justify-content: center;
+      justify-content: left;
       float: right;
 
       @include mobile{
@@ -38,8 +38,9 @@
     }
   }
   .right {
-    flex: 0.5;
+    flex: 0.7;
     position: relative;
+    justify-content: flex-end;
 
     .wrapper {
       width: 100%;
@@ -58,18 +59,36 @@
       h1 {
         font-size: 60px;
         margin: 10px 0;
+        text-align: center;
 
         @include mobile{
           font-size: 40px;
           text-align: center;
         }
       }
+
       h2 {
-        font-size: 35px;
+        text-align: center;
+        font-size: 30px;
       }
+
+      #intro-list {
+        font-size: 20px;
+        margin-right: 50px;
+        text-align: left;
+        margin-top: 30px;
+
+        @include mobile{
+          font-size: 20px;
+          text-align: center;
+          margin-left: 35px;
+        }
+      }
+
       h3 {
         font-size: 20px;
         margin-right: 50px;
+        text-align: center;
 
         @include mobile{
           font-size: 20px;
