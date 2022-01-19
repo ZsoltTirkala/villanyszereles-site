@@ -7,16 +7,22 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-          <img src="./img/logo.png" id="logo-img" alt=""></img>
-            Perfectamper
+            <img src="img/logo.png" id="logo-img" alt=""></img>
           </a>
+          <img src="img/hazard.png" id="hazard-img" alt=""></img>
+          <img src="img/hazard.png" id="hazard-img" alt=""></img>
+          <a href="#intro" className="logo">
+            Perfectamper
+            </a>
+          <img src="img/hazard.png" id="hazard-img" alt=""></img>
+          <img src="img/hazard.png" id="hazard-img" alt=""></img>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>+36-30-824-9936</span>
+          <span>+36-30-824-9936</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>perfectamper@gmail.com</span>
+            <span>perfectamper@gmail.com / szookelajos@gmail.com </span>
           </div>
         </div>
         <div className="right">
