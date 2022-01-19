@@ -13,9 +13,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <li onClick={()=>setMenuOpen(false)}>
           <a href="#prices">Árak</a>
         </li>
-        <li onClick={()=>setMenuOpen(false)}>
-          <a href="#contact">Kapcsolat</a>
-        </li>
       </ul>
     </div>
   );
