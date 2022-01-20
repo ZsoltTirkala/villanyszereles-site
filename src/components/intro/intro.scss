@@ -16,7 +16,7 @@
     .imgContainer {
       width: 400px;
       height: 400px;
-      margin-top: 70px;
+      margin-top: 90px;
       background-color: orange;
       border-radius: 50%;
       display: flex;
@@ -57,8 +57,8 @@
       }
 
       h1 {
-        font-size: 60px;
-        margin: 10px 0;
+        font-size: 65px;
+        margin-top: 80px;
         text-align: center;
 
         @include mobile{
@@ -69,7 +69,9 @@
 
       h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
 
       #intro-list {

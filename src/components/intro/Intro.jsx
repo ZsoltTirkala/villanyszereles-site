@@ -84,9 +84,6 @@ export default function Intro() {
           </ul>
           </h3>
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
-        </a>
       </div>
     </div>
   );
