@@ -39,11 +39,12 @@
   }
 
   .slider {
-    height: 450px;
+    height: 650px;
     display: flex;
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+    margin-top: 150px;
 
     @include mobile {
       height: 100vh;
