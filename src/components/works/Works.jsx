@@ -74,21 +74,11 @@ export default function Works() {
       img:
         "./img/14.jpg",
     },
-    {
-      id: "15",
-      img:
-        "./img/15.jpg",
-    },
-    {
-      id: "16",
-      img:
-        "./img/16.jpg",
-    },
   ];
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 13)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
   
