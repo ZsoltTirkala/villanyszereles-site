@@ -11,7 +11,7 @@
     position: absolute;
     top: 0%;
     font-size: 50px;
-    margin-top: 90px;
+    margin-top: 70px;
   }
 
   #work-image {
@@ -45,6 +45,7 @@
     left: 0;
     transition: all 1s ease-out;
     margin-top: 150px;
+    margin-bottom: 60px;
 
     @include mobile {
       height: 100vh;
