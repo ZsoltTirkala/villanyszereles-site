@@ -10,6 +10,10 @@
   z-index: 3;
   transition: all 1s ease;
 
+  @include mobile {
+    height: 95px;
+  }
+
   .wrapper {
     padding: 10px 30px;
     display: flex;
@@ -24,18 +28,34 @@
       height: 110px;
       width: 90px;
       margin-right: 30px;
+
+      @include mobile {
+        height: 67px;
+        width: 57px;
+        margin-right: 10px;
+      }
     }
 
     #hazard-img {
       height: 40px;
       width: 40px;
+
+      @include mobile {
+        display: none;
+      }
     }
 
       .logo {
         font-size: 50px;
         font-weight: 700;
         text-decoration: none;
-        color: inherit;
+        color: black;
+
+        @include mobile {
+          font-size: 33px;
+          font-weight: 700;
+        }
+        
       }
 
       .itemContainer {

@@ -3,6 +3,7 @@
 .intro {
   background-color: #800020;
   display: flex;
+  height: auto !important;
 
   @include mobile{
     flex-direction: column;
@@ -14,9 +15,9 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 400px;
-      height: 400px;
-      margin-top: 90px;
+      width: 21vw;
+      height: 38vh;
+      margin-top: 16vh;
       background-color: orange;
       border-radius: 50%;
       display: flex;
@@ -26,13 +27,16 @@
 
       @include mobile{
         align-items: flex-start;
+        width: 290px;
+        height: 290px;
+        margin-top: 45px;
       }
 
       img {
         height: 90%;
 
         @include mobile{
-          height: 50%;
+          height: 90%;
         }
       }
     }
@@ -54,11 +58,12 @@
         padding-left: 0;
         align-items: center;
         display:block;
+        margin-top:-58px;
       }
 
       h1 {
         font-size: 65px;
-        margin-top: 80px;
+        margin-top: 90px;
         text-align: center;
 
         @include mobile{
@@ -77,8 +82,9 @@
       #intro-list {
         font-size: 20px;
         margin-right: 50px;
-        text-align: left;
+        text-align: center;
         margin-top: 30px;
+        margin-bottom: 20px;
 
         @include mobile{
           font-size: 20px;
