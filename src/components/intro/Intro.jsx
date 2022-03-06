@@ -11,7 +11,7 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h1>Üdvözlöm weboldalamon !</h1>
+          <h1>Üdvözlöm a weboldalamon !</h1>
           <h2>Szőke Lajos villanyszerelő vagyok.</h2>
           <h3>
             Elsősorban lakossági megrendelések teljesítésével, kivitelezési, felújítási
