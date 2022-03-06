@@ -9,7 +9,7 @@
   height: 103vh !important;
 
   @include mobile {
-    height:5400px !important;
+    height: 632vh !important;
   }
   
   h1 {
@@ -89,7 +89,7 @@
         
 
         @include mobile {
-          width: 80%;
+          width: 95%;
           height: 40.65vh;
           position: absolute;
           margin: 15px 0;
