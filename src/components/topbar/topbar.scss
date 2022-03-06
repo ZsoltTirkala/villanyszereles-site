@@ -36,15 +36,6 @@
       }
     }
 
-    #hazard-img {
-      height: 40px;
-      width: 40px;
-
-      @include mobile {
-        display: none;
-      }
-    }
-
       .logo {
         font-size: 50px;
         font-weight: 700;

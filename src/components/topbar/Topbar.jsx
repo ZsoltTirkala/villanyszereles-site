@@ -9,13 +9,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">
             <img src="img/logo.png" id="logo-img" alt=""></img>
           </a>
-          <img src="img/hazard.png" id="hazard-img" alt=""></img>
-          <img src="img/hazard.png" id="hazard-img" alt=""></img>
           <a href="#intro" className="logo">
             Perfectamper
             </a>
-          <img src="img/hazard.png" id="hazard-img" alt=""></img>
-          <img src="img/hazard.png" id="hazard-img" alt=""></img>
           <div className="itemContainer">
             <Person className="icon" />
           <span>+36-30-824-9936</span>

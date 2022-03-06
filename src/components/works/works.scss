@@ -29,6 +29,7 @@
 
     @include mobile {
       height: 40.65vh;
+      border-radius: 5%;
     }
   }
 
@@ -93,6 +94,7 @@
           height: 40.65vh;
           position: absolute;
           margin: 15px 0;
+          background-color: orange;
         }
 
         .left {
