@@ -15,6 +15,8 @@ export default function Contact() {
       </div>
       <div className="right">
         <h2>Kapcsolat</h2>
+        <p>Telefonon: +36-30-824-9936</p>
+        <p>Emailen: perfectamper@gmail.com / szookelajos@gmail.com</p>
       </div>
     </div>
   );
