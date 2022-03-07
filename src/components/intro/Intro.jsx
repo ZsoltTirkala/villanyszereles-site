@@ -25,7 +25,8 @@ export default function Intro() {
             nélküli korrekt áron úgy várom megkeresését elérhetőségeimen,
             telefonon vagy e-mailben, messengeren vagy viberen.
           </h3>
-          <h3 id="intro-list">A teljesség igénye nélkül vállalom az alábbi feladatokat:
+          <p id="list-headline">A teljesség igénye nélkül vállalom az alábbi feladatokat:</p>
+          <h3 id="intro-list">
           <ul>
             <li>
               - Elektromos hibák, zárlatok keresését és megszüntetését
