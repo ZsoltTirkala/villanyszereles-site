@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 103vh !important;
+  height: 112vh !important;
 
   @include mobile {
     height: 632vh !important;
@@ -16,10 +16,10 @@
     position: absolute;
     top: 0%;
     font-size: 50px;
-    margin-top: 6vh;
+    margin-top: 9vh;
 
     @include mobile {
-      margin-top: 45px;
+      margin-top: 5.02vh;
     }
   }
 
