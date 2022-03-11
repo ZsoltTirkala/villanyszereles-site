@@ -28,7 +28,12 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span className="line3"></span>
           </div>
         </div>
+        
       </div>
+      <div id="topbar-contacts">
+          <span id="contact-phone-mobile">+36-30-824-9936</span>
+          <span id="contact-email-mobile">perfectamper@gmail.com / szookelajos@gmail.com </span>
+        </div>
     </div>
   );
 }

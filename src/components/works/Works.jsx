@@ -91,9 +91,11 @@ export default function Works() {
       >
         {data.map((d) => (
           <div className="container">
+            <p id="img-name">"test"
             <div className="item">
               <img src={d.img} alt="" id="work-image"/>
             </div>
+            </p>
           </div>
         ))}
       </div>
