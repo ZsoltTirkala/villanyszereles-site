@@ -9,7 +9,7 @@
   height: 112vh !important;
 
   @include mobile {
-    height: 632vh !important;
+    height: 550vh !important;
   }
   
   h1 {
@@ -23,13 +23,19 @@
     }
   }
 
+  #img-name {
+    text-align: center;
+    position: relative;
+    
+  }
+
   #work-image {
     width: auto;
     height: 75vh;
 
     @include mobile {
       height: 40.65vh;
-      border-radius: 5%;
+      // border-radius: 5%;
     }
   }
 
@@ -73,16 +79,17 @@
       align-items: center;
       justify-content: center;
       height: 75vh;
+      background: orange;
 
       @include mobile {
         height: 40.65vh;
-        margin-bottom: 2.3vh;
+        margin-bottom: 5.3vh;
       }
 
       .item {
         width: auto;
         height: 75vh;
-        background-color: white;
+        background-color: orange;
         border-radius: 20px;
         display: flex;
         align-items: center;
